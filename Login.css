@@ -1,0 +1,50 @@
+body{
+    margin-top: 100px;
+    text-align: center;
+    background-image: url("Login.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#login{
+    display:inline-block;
+}
+h1{
+    margin:0;
+    padding:0 0 20px;
+    text-align:center;
+    color:darkcyan;
+    
+
+}
+input{
+    border-radius:10px;
+    height: 40px;
+    padding:5px 5px;
+
+}
+input[type="text"]{
+    font-size: large;
+
+
+}
+button{
+    flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+input:focus{
+    border: 5px solid red
+    ;
+
+}
+.loginbtn{
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}

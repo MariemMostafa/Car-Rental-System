@@ -1,0 +1,78 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us</title>
+
+  <style>
+    .bookacar.a:link {
+      text-decoration: none;
+    }
+
+    .bookacar.a:link:visited {
+      text-decoration: none;
+    }
+
+    .bookacar.a:link:hover {
+      text-decoration: underline;
+    }
+
+    .bookacar.a:link:active {
+      text-decoration: underline;
+    }
+  </style>
+
+
+  <!-- can't return back code if logged out -->
+
+  <script type="text/javascript">
+
+    function preventBack() { window.history.forward() };
+    setTimeout("preventBack()", 0);
+    window.onunload = function () { null; }
+
+  </script>
+
+
+
+</head>
+
+<body>
+  <div class="header">
+    <h1>About Us</h1>
+  </div>
+  <ul>
+    <li><a href="home.php">Home</a></li>
+    <li><a href="user.php">Car Search</a></li>
+    <li><a href="payment.php">Payment</a></li>
+    <li><a href="contactUs.html">Contact Us</a></li>
+    <li><a href="aboutUs.html">About Us</a></li>
+    <li><a href="Login.html">Log Out</a></li>
+  </ul>
+  <h1 style="margin-left: 20%; margin-top:1%">
+    <p style="font-family:Helvetica">Who are we?</p>
+  </h1>
+  <h5 style="margin-left: 20%;">
+    <p style="font-family:Helvetica">We are a group of students from Alexandria University.</p>
+    <p style="font-family:Helvetica">Our goal is to provide a platform for people to rent cars to facilitate their and
+      make getting around easier. Renting shouldn't be hard anymore!</p>
+  </h5>
+  <!-- //add image in a section -->
+  <p>
+    <img src="images/3atf.jpeg" alt="Book A Car"
+      style="width: 30%; height: 30%;margin-left:50%; border-radius:75%; margin-top:0px;">
+    <a href="user.php" class="bookacar"
+      style="color:#593CFB; margin-left:33%;font-weight:bold;font-size:large;margin-top:0%;font-family:Arial, Helvetica, sans-serif">Book
+      A Car > </a>
+  <h6 style="color:black; margin-left:33%;font-weight:bold;font-size:medium;"> Down the street or across the <br>
+    country find the perfect vehicle <br>
+    for your next adventure. <br>
+    We have a wide selection of cars, trucks, <br>
+    vans, and SUVs to choose from. <br>
+  </h6>
+  <img src="images/sh7ata.jpeg" alt="Book A Car" style="width: 30%; height: 30%;margin-left:30%; border-radius:75%;">
+  </p>
+
+</html>
